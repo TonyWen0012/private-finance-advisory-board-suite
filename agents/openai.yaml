@@ -1,0 +1,7 @@
+interface:
+  display_name: "Private Finance Advisory Board Suite"
+  short_description: "A five-person private wealth team with bundled persona skills and memory."
+  default_prompt: "Use $private-finance-advisory-board to analyze this financial decision with the five-person team and write the conclusion back to memory."
+
+policy:
+  allow_implicit_invocation: true
