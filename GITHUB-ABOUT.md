@@ -14,8 +14,13 @@ Suggested topics:
 - skill
 - knowledge-management
 - open-source
-- powerShell
+- powershell
 
 Optional website:
 
 - leave blank if you do not have a project site yet
+
+Note:
+
+- This file is only a reference for humans.
+- To update the GitHub sidebar About section, you still need to edit the repository settings in GitHub.
