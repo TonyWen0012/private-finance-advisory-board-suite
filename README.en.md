@@ -19,6 +19,14 @@ It does not promise higher returns.
 
 What it does is make financial decisions more structured, traceable, and reusable by separating roles clearly and writing conclusions back to memory.
 
+## Release Status
+
+`v1.0.0` is the first public stable release of this suite.
+
+- The core architecture stays the same: orchestrator, memory layer, persona bundles, and scripts
+- Future updates should stay compatible with the current workflow whenever possible
+- If you are new to the project, start with `GUIDE.md`
+
 ## What This Suite Helps You Do
 
 ### 1. Classify the question before pulling in specialists
@@ -122,15 +130,16 @@ If you are presenting this project publicly, the most important story is not jus
 
 ### First run
 
-1. Put this folder into your skill or workspace directory.
-2. Confirm that the five files in `memory/` exist.
-3. If you want to rebuild the memory scaffold, run:
+1. Read `GUIDE.md` first, then `SKILL.md`.
+2. Put this folder into your skill or workspace directory.
+3. Confirm that the five files in `memory/` exist.
+4. If you want to rebuild the memory scaffold, run:
 
 ```powershell
 .\scripts\initialize-memory.ps1
 ```
 
-4. Start with a concrete financial question, for example:
+5. Start with a concrete financial question, for example:
 
 ```text
 Use $private-finance-advisory-board to analyze this financial decision with the five-person team and write the conclusion back to memory.
@@ -231,6 +240,12 @@ If you want to distribute only the core orchestrator skill instead of the full p
 .\scripts\validate-package.ps1
 .\scripts\package-skill.ps1
 ```
+
+### Versioning
+
+- `v1.0.0` is the first public stable release
+- Future releases may add content, but the current workflow should stay compatible
+- New users should read `GUIDE.md` before running the suite
 
 ## Directory Structure
 

@@ -19,6 +19,14 @@
 
 它做的是把財務決策拆成更清楚的角色分工，讓你更容易得到可追溯、可持續、可寫回記憶的結論。
 
+## Release Status
+
+`v1.0.0` 是這個 suite 的第一個公開穩定版本。
+
+- 核心架構會維持不變：協調器、記憶層、persona bundles、腳本工具
+- 後續版本如果有新增內容，會盡量保持相容，不破壞現有使用方式
+- 如果你是第一次接觸這個 repo，請先讀 `GUIDE.md`
+
 ## 這套 suite 會幫你做什麼
 
 ### 1. 先分類問題，再叫對的人上場
@@ -118,15 +126,16 @@ User question
 
 ### 第一次使用
 
-1. 把這個資料夾放進你的 skill 或 workspace 目錄。
-2. 先確認 `memory/` 內五個檔案存在。
-3. 如果要重建記憶骨架，執行：
+1. 先讀 `GUIDE.md`，再讀 `SKILL.md`。
+2. 把這個資料夾放進你的 skill 或 workspace 目錄。
+3. 先確認 `memory/` 內五個檔案存在。
+4. 如果要重建記憶骨架，執行：
 
 ```powershell
 .\scripts\initialize-memory.ps1
 ```
 
-4. 用一個具體財務問題啟動它，例如：
+5. 用一個具體財務問題啟動它，例如：
 
 ```text
 Use $private-finance-advisory-board to analyze this financial decision with the five-person team and write the conclusion back to memory.
@@ -227,6 +236,12 @@ git clone <your-repo-url>
 .\scripts\validate-package.ps1
 .\scripts\package-skill.ps1
 ```
+
+### Versioning
+
+- `v1.0.0` is the first public stable release
+- Future versions may add material, but the core architecture should stay compatible
+- If you are new to the project, read `GUIDE.md` before running the suite
 
 ## 目錄結構
 
